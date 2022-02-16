@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables continueOnError="false" enabled="true" name="Extract-Variables-1">
+    <DisplayName>Extract Variables-1</DisplayName>
+    <!-- The name is the actual header name. -->
+    <Header name="Authorization">
+        <!-- Provide a name for your new custom variable here. -->
+        <Pattern ignoreCase="false">Bearer {oauthtoken}</Pattern>
+    </Header>
+</ExtractVariables>

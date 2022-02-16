@@ -1,0 +1,18 @@
+<APIProxy revision="7" name="auth-test">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1645010833466</CreatedAt>
+    <LastModifiedAt>1645010833466</LastModifiedAt>
+    <BasePaths>/load-tester</BasePaths>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>Raise-Fault-1</Policy>
+        <Policy>Verify-JWT-1</Policy>
+        <Policy>Extract-Variables-1</Policy>
+        <Policy>Decode-JWT-1</Policy>
+        <Policy>Verify-JWT-2</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+</APIProxy>
